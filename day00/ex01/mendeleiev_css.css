@@ -1,0 +1,125 @@
+.block
+{
+    display :flex;
+    flex-wrap: wrap;
+    background: rgb(35, 128, 39);
+    height: 100px;
+    width: 100px;
+    border: transparent;
+    margin: 2px 2px;
+}
+.block_dark_blue
+{
+    display :flex;
+    flex-wrap: wrap;
+    background: rgb(33, 43, 172);
+    height: 100px;
+    width: 100px;
+    border: transparent;
+    margin: 2px 2px;
+}
+.block_blue
+{
+    display :flex;
+    flex-wrap: wrap;
+    background: rgb(54, 126, 173);
+    height: 100px;
+    width: 100px;
+    border: transparent;
+    margin: 2px 2px;
+}
+.block_green
+{
+    display :flex;
+    flex-wrap: wrap;
+    background: rgb(35, 200, 139);
+    height: 100px;
+    width: 100px;
+    border: transparent;
+    margin: 2px 2px;
+}
+.block_grey
+{
+    display :flex;
+    flex-wrap: wrap;
+    background: rgb(103, 104, 104);
+    height: 100px;
+    width: 100px;
+    border: transparent;
+    margin: 2px 2px;
+}
+.block_yellow
+{
+    display :flex;
+    flex-wrap: wrap;
+    background: rgb(243, 224, 50);
+    height: 100px;
+    width: 100px;
+    border: transparent;
+    margin: 2px 2px;
+}
+.block_red
+{
+    display :flex;
+    flex-wrap: wrap;
+    background: red;
+    height: 100px;
+    width: 100px;
+    border: transparent;
+    margin: 2px 2px;
+}
+.block_violet
+{
+    display :flex;
+    flex-wrap: wrap;
+    background: rgb(177, 30, 177);
+    height: 100px;
+    width: 100px;
+    border: transparent;
+    margin: 2px 2px;
+}
+.block_violet_s
+{
+    display :flex;
+    flex-wrap: wrap;
+    background: rgb(223, 139, 165);
+    height: 100px;
+    width: 100px;
+    border: transparent;
+    margin: 2px 2px;
+}
+.block_violet_t
+{
+    display :flex;
+    flex-wrap: wrap;
+    background: rgb(209, 135, 228);
+    height: 100px;
+    width: 100px;
+    border: transparent;
+    margin: 2px 2px;
+}
+.block_trans
+{
+    display :flex;
+    flex-wrap: wrap;
+    background: transparent;
+    height: 100px;
+    width: 100px;
+    border: transparent;
+    margin: 2px 2px;
+}
+
+.size{
+    display: flex;
+    flex-wrap: wrap;
+    width: 350px;
+    align-items: flex-start;
+    align-content: flex-start;
+    height: 950px;
+    width: 1900px;
+}
+.size_picture
+{
+    height: 400px;
+    width: auto;
+}

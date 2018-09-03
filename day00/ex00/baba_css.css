@@ -1,0 +1,19 @@
+.main
+{
+    display: inline-block;
+    text-align:center;
+    margin:0;
+  
+}
+.monimage 
+{
+    background: rgb(201, 19, 52);
+    width : 400px;
+    height : 200px;
+}
+.monimage2 
+{
+    background: rgb(201, 19, 52);
+    width : 400px;
+    height : 200px;
+}
