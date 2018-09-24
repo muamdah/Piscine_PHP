@@ -1,0 +1,24 @@
+body
+{
+    background: grey;
+}
+.first
+{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+    background: rgb(145, 145, 145);
+    box-shadow: black 10px 10px 10px;
+}
+.day
+{
+    flex: left;
+    width: 500px;
+    height: auto;
+   
+}
+.loupe
+{
+    position: absolute;
+    width: 200px;
+    height: auto;
+    margin-right: 100px;
+}
