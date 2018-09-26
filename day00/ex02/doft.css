@@ -1,24 +1,66 @@
-body
-{
-    background: grey;
-}
+body {background: rgb(94, 93, 93);}
+/*--------------------------------------------*/
 .first
 {
+    width: 1800px;
+    height: 250px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
     background: rgb(145, 145, 145);
     box-shadow: black 10px 10px 10px;
+    border-radius: 10px;
+    margin: auto;
 }
+.second
+{
+    position: absolute;
+    top : 290px;
+    width: 250px;
+    left: 430px;
+    height: 600px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+    background: rgb(145, 145, 145);
+    box-shadow: black 10px 10px 10px;
+    border-radius: 10px;
+}
+.cr{background: rgb(145, 145, 145);border : 3px solid black}
+/*--------------------------------------------*/
+
 .day
 {
-    flex: left;
-    width: 500px;
+    margin-top: 5px;
+    width: 800px;
     height: auto;
    
 }
 .loupe
 {
     position: absolute;
-    width: 200px;
+    width: 500px;
     height: auto;
-    margin-right: 100px;
+    margin-left: 470px;
+    align-items: center;
+}
+.close
+{
+    position: absolute;
+    width: 30px;
+    height: auto;
+    margin-left: 960px;
+    align-content: left;
+    top: 220;
+}
+.reload
+{
+    position: absolute;
+    width: 30px;
+    height: auto;
+    margin-left: 960px;
+    align-content: left;
+    top: 12;
+}
+.arrow
+{
+    width: 100px;
+    height: auto;
+    left : 20px;
 }
