@@ -1,11 +1,19 @@
 #!/usr/bin/php
 <?php
-echo "Entrez un nombre:";
-$i = fgets(STDIN);
-echo $i;
-if($i % 2 == 0)
+
+while (1)
 {
-    echo "paire";
+    echo "Entrez un nombre: ";
+    $element = trim(fgets(STDIN));
+    if(empty($element))
+        exit;
+    if(is_numeric($element))
+    {
+        if($element % 2 == 0)
+            echo "Le chiffre {$element} est Paire\n";
+        else
+            echo "Le chiffre {$element} est Impare\n";
+    }
+    else
+        echo "'{$element}' n'est pas un chiffre\n";
 }
-else
-    echo "impare";
